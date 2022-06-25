@@ -2,12 +2,18 @@
 Web scrapper module
 
 ## About
-
+- ALAA HENA 7atktb About el project bt3na
 
 ## technical requirments
-- Computer ( windows / mac )
-- OS ( linux / windows )
-- hosting can be done to Odoo SH, Saas, or keep it on your server.
+ ## HardWare
+ - Computer ( windows / mac )
+ - OS ( linux / windows )
+ - Can be Hosted On Cloud
+ - Accessing can be done through mobile or Personal Computer with an internet Connection (if it's Hosted and Online)
+ ## SoftWare
+ - for Developing you will need to configure the odoo Server into your IDE of Choice ( We Recommend PyCharm)
+ - hosting can be done to Odoo SH, Saas, or keep it on your server.
+ - ALAAA HENA 7at3ml goz2 el imports
 
 ## Introduction
  Here is an overview about the module folders and the purpose of each one;
