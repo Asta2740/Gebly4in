@@ -20,7 +20,8 @@ Web scrapper module
  
  - **models** {Business objects are declared as Python classes extending Model which integrates them into the automated persistence system}
       - `products.py` - integrating new attributes and functions to the existing fields and model
-      - 
+      
+
  - **security** {To manage users and configure  security access rights}
       - `__init__.py`  contains import instructions for various Python files in the module.
       - `ir.model.access.csv`  -	declaring the rights to groups
@@ -36,8 +37,7 @@ Web scrapper module
       - `template.xml`  -	Web Scrapper page
  
 
-  ![project_all](project folders.PNG)
+  ![project folders](https://user-images.githubusercontent.com/105456248/175781841-d8715faa-1c14-41b9-95f2-3f2c0102c740.PNG)
 
 
 ## technical requirments
-   ### 2.1. `index.html`
