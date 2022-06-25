@@ -2,7 +2,7 @@
 Web scrapper module
 
 ## Introduction
- Here is an overview about the website folders and the purpose of each one;
+ Here is an overview about the module folders and the purpose of each one;
  -  **Custom** {Adding your custom Add-ons(modules)}
       - `shein2egypt`  First moudle made to integrate with the framework
 
@@ -41,3 +41,7 @@ Web scrapper module
 
 
 ## technical requirments
+- Computer ( windows / mac )
+- OS ( linux / windows )
+- hosting can be done to Odoo SH, Saas, or keep it on your server.
+
