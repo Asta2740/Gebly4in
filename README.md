@@ -45,3 +45,90 @@ Web scrapper module
 - OS ( linux / windows )
 - hosting can be done to Odoo SH, Saas, or keep it on your server.
 
+## Api
+-We made an api to convert the image from the webp to a  jnp to be able to decode it and add to the code
+
+```
+import os
+import urllib.request
+from werkzeug.utils import secure_filename
+from PIL import Image
+from secrets import token_urlsafe
+
+
+app = Flask(__name__)
+
+app.secret_key = "A8I1slA8MGqsmYhaQLosme2OsYnzAQHJ"
+
+UPLOAD_FOLDER = '/home/Angelo666/app/static/uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+
+ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/')
+def main():
+    return 'Homepage'
+
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    # check if the post request has the file part
+    if 'files[]' not in request.files:
+        resp = jsonify({'message' : 'No file part in the request'})
+        resp.status_code = 400
+        return resp
+
+    files = request.files.getlist('files[]')
+
+    errors = {}
+    success = False
+    file_id = ''
+
+    for file in files:
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            name = generate_random()
+            while name in os.listdir(UPLOAD_FOLDER):
+                name = generate_random()
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], name))
+            success = True
+            file_id = name
+        else:
+            errors[file.filename] = 'File type is not allowed'
+
+    if success and errors:
+        errors['message'] = 'File(s) successfully uploaded'
+        resp = jsonify(errors)
+        resp.status_code = 500
+        return resp
+    if success:
+        return file_id
+    else:
+        resp = jsonify(errors)
+        resp.status_code = 500
+        return resp
+
+@app.route('/img/<img>/')
+def get_file(img):
+    if img in os.listdir(UPLOAD_FOLDER):
+        im = Image.open(os.path.join(app.config['UPLOAD_FOLDER'], img))
+        rgb_im = im.convert('RGB')
+        rgb_im.save(os.path.join(app.config['UPLOAD_FOLDER'], 'colors.jpg'))
+        os.remove(os.path.join(app.config['UPLOAD_FOLDER'], img))
+        return send_file(os.path.join(app.config['UPLOAD_FOLDER'], 'colors.jpg'), mimetype='image/gif')
+    resp = jsonify({'message' : 'File not found'})
+    resp.status_code = 400
+    return resp
+
+
+def generate_random():
+    return token_urlsafe(32)
+
+
+if __name__ == '__main__':
+    app.run()
+    ```
+
