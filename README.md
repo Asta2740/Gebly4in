@@ -1,6 +1,14 @@
 # Gebly4in Website
 Web scrapper module
 
+## About
+
+
+## technical requirments
+- Computer ( windows / mac )
+- OS ( linux / windows )
+- hosting can be done to Odoo SH, Saas, or keep it on your server.
+
 ## Introduction
  Here is an overview about the module folders and the purpose of each one;
  -  **Custom** {Adding your custom Add-ons(modules)}
@@ -40,10 +48,7 @@ Web scrapper module
   ![project folders](https://user-images.githubusercontent.com/105456248/175781841-d8715faa-1c14-41b9-95f2-3f2c0102c740.PNG)
 
 
-## technical requirments
-- Computer ( windows / mac )
-- OS ( linux / windows )
-- hosting can be done to Odoo SH, Saas, or keep it on your server.
+
 
 ## Api
 -We made an api to convert the image from the webp to a  jnp to be able to decode it and add to the code
