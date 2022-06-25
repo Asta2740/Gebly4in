@@ -1,0 +1,167 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* shein2egypt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220511\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-22 10:50+0000\n"
+"PO-Revision-Date: 2022-05-22 13:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__cost
+msgid "Cost"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_page
+msgid "Delivers to your address in Egypt, Pay in Egyptian Pounds"
+msgstr "يوصل إلى عنوانك في مصر ، ادفع بالجنيه المصري"
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__note
+msgid "Description"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: shein2egypt
+#: model:website.menu,name:shein2egypt.Fawrry_shop
+msgid "Fawry Shop"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__id
+msgid "ID"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: shein2egypt
+#: model:website.menu,name:shein2egypt.Custom_shop
+msgid "Personal Shop"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model,name:shein2egypt.model_product_template
+msgid "Product Template"
+msgstr "قالب المنتج"
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_page
+msgid "Product link here (FULL URL)"
+msgstr "رابط المنتج هنا (عنوان URL كامل)"
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_product_product__esEstrategic
+#: model:ir.model.fields,field_description:shein2egypt.field_product_template__esEstrategic
+msgid "Producte Estratègic?"
+msgstr ""
+
+#. module: shein2egypt
+#: model:website.menu,name:shein2egypt.All_searches
+msgid "Recent Searches"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__responsible_id
+msgid "Responsible"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__sales_price
+msgid "Sales Price"
+msgstr ""
+
+#. module: shein2egypt
+#: model:website.menu,name:shein2egypt.menu_shein_scrapper
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_page
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_pageAr
+msgid "Shein2Egypt"
+msgstr ""
+
+#. module: shein2egypt
+#: model:website.menu,name:shein2egypt.menu_shop
+msgid "Shop"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_page
+msgid "Shop from online SHEIN Store in SA"
+msgstr "تسوق من متجر SHEIN عبر الإنترنت"
+
+#. module: shein2egypt
+#: model:ir.model,name:shein2egypt.model_recent_inquiry
+msgid "inquiry templet"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_product_product__product_description
+#: model:ir.model.fields,field_description:shein2egypt.field_product_template__product_description
+msgid "product description"
+msgstr ""
+
+#. module: shein2egypt
+#: model:ir.model.fields,field_description:shein2egypt.field_recent_inquiry__name
+msgid "scrapper name"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_page
+msgid "search"
+msgstr "بحث"
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_pageAr
+msgid "بحث"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_pageAr
+msgid "تسوق من متجر SHEIN عبر الإنترنت"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_pageAr
+msgid "رابط المنتج هنا (عنوان URL كامل)"
+msgstr ""
+
+#. module: shein2egypt
+#: model_terms:ir.ui.view,arch_db:shein2egypt.Shein_pageAr
+msgid "يوصل إلى عنوانك في مصر ، ادفع بالجنيه المصري"
+msgstr ""

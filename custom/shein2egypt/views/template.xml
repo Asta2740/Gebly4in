@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <record id="menu_shein_scrapper" model="website.menu">
+            <field name="name">Shein2Egypt</field>
+            <field name="url">/Shein2egypt</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+
+
+        <template id="Shein_page" name="Shein2Egypt">
+            <t t-call="website.layout">
+                <t t-set="title">Shein2Egypt</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <!--<script>
+                            // (A) FLAG FOR "ALREADY CLICKED".
+                            var clicked = false;
+
+                            // (B) FUNCTION - WILL ONLY RUN IF NOT CLICKED
+                            function doSomething () { if (!clicked) {
+                            // (B1) SET CLICKED TO TRUE
+                            clicked = true;
+
+                            // (B2) DO YOUR PROCESSING HERE
+                            alert("Something is done!");
+
+                            // (B3) RE-ENABLE AFTER PROCESSING IF YOU WANT
+                            // clicked = false;
+                            }}
+                        </script>-->
+
+                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/nav.css"/>
+                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/shein2egypt.css"/>
+                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/login.css"/>
+                        <!--<link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/shein2egypt.css"/>-->
+                        <!--fav icon-->
+                        <link rel="shortcut icon" href="g letter black.png"/>
+
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sakkal Majalla"/>
+                        <link rel="stylesheet"
+                              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                        <form action="/Shein2egypt">
+                            <div class="shein2egypt" style="max-width:1400px">
+                                <h1 class="shein2egypt-text">Shop from online SHEIN Store in SA</h1>
+                                <h3 class="shein">Delivers to your address in Egypt, Pay in Egyptian Pounds</h3>
+                                <br>
+                                    <div class="form">
+                                        <input type="text" class="search-box-shein" id="Url" name="Url"
+                                               placeholder="Product link here (FULL URL)"/>
+                                        <button class="search-btn-shein">search
+                                        </button>
+
+                                        <t t-out="foo"/>
+                                    </div>
+                                </br>
+                                <div class="shein-img">
+                                    <a href="https://ar.shein.com/  " target="_blank" class="shein-img">
+                                        <img src="shein2egypt/static/img/shein-logo-4.png" alt="Shein Logo"/>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>

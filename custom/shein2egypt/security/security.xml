@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.rule" id="User_history">
+        <field name="name">only see his history</field>
+        <field name="model_id" ref="model_product_template"/>
+        <field name="domain_force">[]</field>
+        <field name="groups" eval="[(4, ref('base.group_portal'))]"/> <!--here making it for the specific group users-->
+    </record>
+
+</odoo>

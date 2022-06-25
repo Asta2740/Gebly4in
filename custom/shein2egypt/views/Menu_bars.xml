@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="Custom_shop" model="website.menu">
+        <field name="name">Personal Shop</field>
+        <field name="url">/shop/category/fawry-products-11</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">40</field>
+    </record>
+
+    <record id="Fawrry_shop" model="website.menu">
+        <field name="name">Immediate Shop</field>
+        <field name="url">/shop/category/fawry-products-11</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">30</field>
+    </record>
+
+    <record id="All_searches" model="website.menu">
+        <field name="name">Recent Searches</field>
+        <field name="url">/shop</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">50</field>
+    </record>
+
+    <record id="menu_shop" model="website.menu">
+        <field name="name">Shop</field>
+        <field name="url">/shop</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">30</field>
+    </record>
+
+</odoo>
