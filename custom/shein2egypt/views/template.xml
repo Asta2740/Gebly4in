@@ -16,34 +16,9 @@
                 <t t-set="title">Shein2Egypt</t>
                 <div class="oe_structure">
                     <div class="container">
-                        <!--<script>
-                            // (A) FLAG FOR "ALREADY CLICKED".
-                            var clicked = false;
 
-                            // (B) FUNCTION - WILL ONLY RUN IF NOT CLICKED
-                            function doSomething () { if (!clicked) {
-                            // (B1) SET CLICKED TO TRUE
-                            clicked = true;
-
-                            // (B2) DO YOUR PROCESSING HERE
-                            alert("Something is done!");
-
-                            // (B3) RE-ENABLE AFTER PROCESSING IF YOU WANT
-                            // clicked = false;
-                            }}
-                        </script>-->
-
-                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/nav.css"/>
-                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/shein2egypt.css"/>
-                        <link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/login.css"/>
-                        <!--<link rel="stylesheet" type="text/css" href="shein2egypt/static/scss/shein2egypt.css"/>-->
-                        <!--fav icon-->
-                        <link rel="shortcut icon" href="g letter black.png"/>
-
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sakkal Majalla"/>
-                        <link rel="stylesheet"
-                              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                         <form action="/Shein2egypt">
+
                             <div class="shein2egypt" style="max-width:1400px">
                                 <h1 class="shein2egypt-text">Shop from online SHEIN Store in SA</h1>
                                 <h3 class="shein">Delivers to your address in Egypt, Pay in Egyptian Pounds</h3>

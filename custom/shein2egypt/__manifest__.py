@@ -1,13 +1,13 @@
 {
     'name': 'WebScrapper',
     'version': '1.0',
-    'author': 'youssef',
+    'author': 'Team 4',
     'summary': 'Links to products',
     'sequence': 10,
     'sequence': '1',
     'description': "we will begin our journy now",
     'category': 'Sales/Sales',
-    'website': 'sheesh',
+    'website': '',
     'depends': ['product', 'website', 'website_sale'],
     'data': [
         'security/ir.model.access.csv',

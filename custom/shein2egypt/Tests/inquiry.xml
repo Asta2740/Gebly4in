@@ -1,0 +1,71 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+<!--<odoo>-->
+<!--&lt;!&ndash;form view&ndash;&gt;-->
+<!--    <record id="inquiry_form" model="ir.ui.view">-->
+<!--        <field name="name">recent.inquiry.form</field>-->
+<!--        <field name="model">recent.inquiry</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form> &lt;!&ndash;if you add it here tree / knban / or w.e it will understand what you write it in&ndash;&gt;-->
+<!--                <sheet>-->
+<!--                   <group> &lt;!&ndash;main group we add 2 groups to make 2 coloums&ndash;&gt;-->
+<!--                       <group>-->
+<!--                           <field name="name"/>-->
+<!--                           <field name="sales_price"/>-->
+<!--                           <field name="cost"/>-->
+<!--                       </group>-->
+<!--                       <group>-->
+<!--                           <field name="responsible_id"/>-->
+<!--                           <field name="note"/>-->
+<!--                       </group>-->
+<!--                   </group>-->
+<!--                </sheet>-->
+
+<!--            </form>-->
+<!--        </field>-->
+<!--    </record>-->
+
+<!--    &lt;!&ndash;list view&ndash;&gt;-->
+<!--    <record id="inquiry_tree" model="ir.ui.view">-->
+<!--        <field name="name">recent.inquiry.tree</field>-->
+<!--        <field name="model">recent.inquiry</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <tree>-->
+<!--                <field name="name"/>-->
+<!--                <field name="sales_price"/>-->
+<!--                <field name="cost"/>-->
+<!--                <field name="responsible_id"/>-->
+<!--                <field name="note"/>-->
+<!--            </tree>-->
+<!--        </field>-->
+<!--    </record>-->
+
+
+<!--    <record id="inquiry_action" model="ir.actions.act_window">-->
+<!--        <field name="name">inquiry Orders</field>-->
+<!--        <field name="type">ir.actions.act_window</field>-->
+<!--        <field name="res_model">recent.inquiry</field>-->
+<!--        <field name="view_mode">tree,kanban,form</field>-->
+<!--        <field name="help" type="html">-->
+<!--            <p class="o_view_nocontent_smiling_face">-->
+<!--                Recent Inquiries of all customers-->
+<!--            </p>-->
+<!--        </field>-->
+<!--    </record>-->
+
+
+<!--    &lt;!&ndash;  main menu item&ndash;&gt;-->
+<!--    <menuitem id="all_inquiries"-->
+<!--              name="web scrapper"-->
+<!--              sequence="10"/>&lt;!&ndash;  sequance is like how it will be ordered in the odoo&ndash;&gt;-->
+
+<!--    <menuitem id="inquiry_root"-->
+<!--              name="Recent inquiry"-->
+<!--              parent="all_inquiries"-->
+<!--              sequence="10"/>-->
+
+<!--    <menuitem id="inquiry_Branch"-->
+<!--              name="Recent inquiry"-->
+<!--              parent="inquiry_root"-->
+<!--              action="inquiry_action"-->
+<!--              sequence="10"/>-->
+<!--</odoo>-->
