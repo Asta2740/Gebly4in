@@ -13,8 +13,25 @@ Web scrapper module
  ## SoftWare
  - for Developing you will need to configure the odoo Server into your IDE of Choice ( We Recommend PyCharm)
  - hosting can be done to Odoo SH, Saas, or keep it on your server.
- - ALAAA HENA 7at3ml goz2 el imports
+ - Installation:
+   - Selenium
+     - elenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
+Selenium Python bindings provide a convenient API to access Selenium WebDrivers like Firefox, Ie, Chrome, Remote etc. The current supported Python versions are 3.5 and above.
 
+   ```
+   pip install selenium
+   ```
+   - webdrivermanager
+     - Python module to facilitate downloading and deploying WebDriver binaries. The classes in this module can be used to automatically search for and download the latest version (or a specific version) of a WebDriver binary and then extract it and place it by copying or symlinking it to the location where Selenium or other tools should be able to find it then.
+    ```
+    pip install webdrivermanager
+    ```
+   - dataclasses
+     - This is an implementation of PEP 557, Data Classes. It is a backport for Python 3.6. Because dataclasses will be included in Python 3.7, any discussion of dataclass features should occur on the python-dev mailing list at https://mail.python.org/mailman/listinfo/python-dev. At this point this repo should only be used for historical purposes (it’s where the original dataclasses discussions took place) and for discussion of the actual backport to Python 3.6.
+See https://www.python.org/dev/peps/pep-0557/ for the details of how Data Classes work.
+    ```
+    pip install dataclasses
+    ```
 ## Introduction
  Here is an overview about the module folders and the purpose of each one;
  -  **Custom** {Adding your custom Add-ons(modules)}
