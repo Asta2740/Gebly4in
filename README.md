@@ -1,44 +1,6 @@
 # Gebly4in Website
 Web scrapper module
 
-## About
-After we got acquainted with our project and its components and we knew the problems that would face us, analyzed and divided them, we touched on the use of analysis and design programs and algorithms to implement our project, which in turn formed a website as follows:
-
-When you start entering the page, the login form appears in front of us, you type in the first text your account and directly below it you write your password, and there is a small line before the accept button, there is an account creation if this is your first time, and you can create it from a Google account.
-
-After logging in, the main page appears in front of us that contains the following:
-Products with their abstract details, either on the right of the page shows the categories of products, and on top of it shows a web scraper.
-As for the products, we can click on them to know more and more details and a set of icons appears, such as, add to cart, add to whishlist.
-The web scraper is the one who puts the link of the product we want from shein, which is not on our website.
-After we have added the products to the shopping cart, we move to it to see what we have added, and if we want to modify it, such as reducing the quantity or increasing it and knowing the total prices and so on, the checkout button appears, in which we enter the payment information such as address, phone number, name, e-mail and how The payment that appears in two ways, namely, fewery payment or Voafone cash, and then communication is done via WhatsApp, and after that, the site automatically checks the data and creates the invoice and sends it to the reseller, who in turn approves it to be sent when to the buyer.
-## technical requirments
- ## HardWare
- - Computer ( windows / mac )
- - OS ( linux / windows )
- - Can be Hosted On Cloud
- - Accessing can be done through mobile or Personal Computer with an internet Connection (if it's Hosted and Online)
- ## SoftWare
- - for Developing you will need to configure the odoo Server into your IDE of Choice ( We Recommend PyCharm)
- - hosting can be done to Odoo SH, Saas, or keep it on your server.
- - Installation:
-   - Selenium
-     - Selenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
-Selenium Python bindings provide a convenient API to access Selenium WebDrivers like Firefox, Ie, Chrome, Remote etc. The current supported Python versions are 3.5 and above.
-
-   ```
-   pip install selenium
-   ```
-   - webdrivermanager
-     - Python module to facilitate downloading and deploying WebDriver binaries. The classes in this module can be used to automatically search for and download the latest version (or a specific version) of a WebDriver binary and then extract it and place it by copying or symlinking it to the location where Selenium or other tools should be able to find it then.
-    ```
-    pip install webdrivermanager
-    ```
-   - dataclasses
-     - This is an implementation of PEP 557, Data Classes. It is a backport for Python 3.6. Because dataclasses will be included in Python 3.7, any discussion of dataclass features should occur on the python-dev mailing list at https://mail.python.org/mailman/listinfo/python-dev. At this point this repo should only be used for historical purposes (it’s where the original dataclasses discussions took place) and for discussion of the actual backport to Python 3.6.
-See https://www.python.org/dev/peps/pep-0557/ for the details of how Data Classes work.
-    ```
-    pip install dataclasses
-    ```
 ## Introduction
  Here is an overview about the module folders and the purpose of each one;
  -  **Custom** {Adding your custom Add-ons(modules)}
@@ -76,6 +38,35 @@ See https://www.python.org/dev/peps/pep-0557/ for the details of how Data Classe
  
 
   ![project folders](https://user-images.githubusercontent.com/105456248/175781841-d8715faa-1c14-41b9-95f2-3f2c0102c740.PNG)
+## technical requirments
+ ## HardWare
+ - Computer ( windows / mac )
+ - OS ( linux / windows )
+ - Can be Hosted On Cloud
+ - Accessing can be done through mobile or Personal Computer with an internet Connection (if it's Hosted and Online)
+ ## SoftWare
+ - for Developing you will need to configure the odoo Server into your IDE of Choice ( We Recommend PyCharm)
+ - hosting can be done to Odoo SH, Saas, or keep it on your server.
+ - Installation:
+   - Selenium
+     - Selenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
+Selenium Python bindings provide a convenient API to access Selenium WebDrivers like Firefox, Ie, Chrome, Remote etc. The current supported Python versions are 3.5 and above.
+
+   ```
+   pip install selenium
+   ```
+   - webdrivermanager
+     - Python module to facilitate downloading and deploying WebDriver binaries. The classes in this module can be used to automatically search for and download the latest version (or a specific version) of a WebDriver binary and then extract it and place it by copying or symlinking it to the location where Selenium or other tools should be able to find it then.
+    ```
+    pip install webdrivermanager
+    ```
+   - dataclasses
+     - This is an implementation of PEP 557, Data Classes. It is a backport for Python 3.6. Because dataclasses will be included in Python 3.7, any discussion of dataclass features should occur on the python-dev mailing list at https://mail.python.org/mailman/listinfo/python-dev. At this point this repo should only be used for historical purposes (it’s where the original dataclasses discussions took place) and for discussion of the actual backport to Python 3.6.
+See https://www.python.org/dev/peps/pep-0557/ for the details of how Data Classes work.
+    ```
+    pip install dataclasses
+    ```
+
 
 
 
