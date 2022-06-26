@@ -2,7 +2,7 @@
 Web scrapper module
 
 ## About
-- After we got acquainted with our project and its components and we knew the problems that would face us, analyzed and divided them, we touched on the use of analysis and design programs and algorithms to implement our project, which in turn formed a website as follows:
+After we got acquainted with our project and its components and we knew the problems that would face us, analyzed and divided them, we touched on the use of analysis and design programs and algorithms to implement our project, which in turn formed a website as follows:
 
 When you start entering the page, the login form appears in front of us, you type in the first text your account and directly below it you write your password, and there is a small line before the accept button, there is an account creation if this is your first time, and you can create it from a Google account.
 
