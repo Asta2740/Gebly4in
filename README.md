@@ -22,7 +22,7 @@ After we have added the products to the shopping cart, we move to it to see what
  - hosting can be done to Odoo SH, Saas, or keep it on your server.
  - Installation:
    - Selenium
-     - elenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
+     - Selenium Python bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. Through Selenium Python API you can access all functionalities of Selenium WebDriver in an intuitive way.
 Selenium Python bindings provide a convenient API to access Selenium WebDrivers like Firefox, Ie, Chrome, Remote etc. The current supported Python versions are 3.5 and above.
 
    ```
