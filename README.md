@@ -2,8 +2,15 @@
 Web scrapper module
 
 ## About
-- ALAA HENA 7atktb About el project bt3na
+- After we got acquainted with our project and its components and we knew the problems that would face us, analyzed and divided them, we touched on the use of analysis and design programs and algorithms to implement our project, which in turn formed a website as follows:
 
+When you start entering the page, the login form appears in front of us, you type in the first text your account and directly below it you write your password, and there is a small line before the accept button, there is an account creation if this is your first time, and you can create it from a Google account.
+
+After logging in, the main page appears in front of us that contains the following:
+Products with their abstract details, either on the right of the page shows the categories of products, and on top of it shows a web scraper.
+As for the products, we can click on them to know more and more details and a set of icons appears, such as, add to cart, add to whishlist.
+The web scraper is the one who puts the link of the product we want from shein, which is not on our website.
+After we have added the products to the shopping cart, we move to it to see what we have added, and if we want to modify it, such as reducing the quantity or increasing it and knowing the total prices and so on, the checkout button appears, in which we enter the payment information such as address, phone number, name, e-mail and how The payment that appears in two ways, namely, fewery payment or Voafone cash, and then communication is done via WhatsApp, and after that, the site automatically checks the data and creates the invoice and sends it to the reseller, who in turn approves it to be sent when to the buyer.
 ## technical requirments
  ## HardWare
  - Computer ( windows / mac )
